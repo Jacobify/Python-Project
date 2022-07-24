@@ -6,7 +6,7 @@ For now this repo is going to contain all the files regarding my exercises until
 
 Hopefully it may end up helping you in your codes.
 
-I have not decided which Python library i am going to use ,However, this project's main point will be mainly about image proccessing and little about deep learning concepts.
+I have not decided which Python library i am going to use ,However, this project's main point will be mainly about image processing and little about deep learning concepts.
 
 -- this file will change as i go through with it.
 
