@@ -1,8 +1,8 @@
 # Python-Project
 
-                                                  Hi , welcome to my python project repository.
+Hi , welcome to my python project repository.
 
-                ![342cb5667d5d21f6770d0f02281fbf58](https://user-images.githubusercontent.com/39615077/194693556-d97bfdfd-fd65-4d33-bb41-d4eda9f38b8a.gif)
+   ![342cb5667d5d21f6770d0f02281fbf58](https://user-images.githubusercontent.com/39615077/194693556-d97bfdfd-fd65-4d33-bb41-d4eda9f38b8a.gif)
 
 For now this repo is going to contain all the files regarding my exercises until i define the project and add the new codes.
 
