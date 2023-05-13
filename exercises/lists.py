@@ -131,3 +131,9 @@ customer_data[1].remove(False)
 customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Large", False]]
 
 print(customer_data_final)
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)

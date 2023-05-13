@@ -121,3 +121,53 @@ inventory.insert(10,"19th Century Bed Frame")
 inventory.sort()
 
 print(inventory)
+
+#Write your function here
+def middle_element(lst):
+  print(len(lst)/2 - 1)
+  if len(lst)%2 == 0:
+    return (lst[int(len(lst)/2-1)] +lst[int(len(lst)/2)]) /2
+  else:
+    return lst[int(len(lst)/2)]
+
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4, 5]))
+
+
+
+#Write your function here
+def double_index(lst,index):
+  if index >= len(lst):
+    return lst
+  else:
+    new_list = lst[:index]
+    new_list.append(lst[index]*2)
+    new_list = new_list + lst[index+1:]
+    return new_list
+
+#Uncomment the line below when your function is done
+print(double_index([3, 8, -10, 12], 2))
+
+
+
+
+#Write your function here
+def remove_middle(lst, start, end):
+  return lst[:start] + lst[end+1:]
+
+#Uncomment the line below when your function is done
+print(remove_middle([4, 8, 15, 16, 23, 42], 1, 3))
+
+
+
+
+#Write your function here
+def every_three_nums(start):
+  if start <= 100:
+    x = [num for num in range(start,101,3) if num <= 100]
+    return x
+  else:
+    return []
+
+#Uncomment the line below when your function is done
+print(every_three_nums(91))
